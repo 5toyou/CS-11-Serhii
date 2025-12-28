@@ -1,20 +1,32 @@
-.colorful_case{
+.colorful_case {
     display: flex;
+    flex-direction: column;
+    line-height: 0.9;
 }
 
 
-.colorful_case>div{
+.colorful_case>div {
     display: flex;
-    margin-left: 15px;
-    font-size: 5em;
+    letter-spacing: 5px;
+    font-size: 7em;
     font-weight: bold;
+    font-family: sans-serif;
+    flex-wrap: nowrap;
+}
+.colorful_case>div>div{
+    position: relative;
 }
 
-@keyframes anim{
-    0%,100%{color: var(--dynamic-1comma);}
+@keyframes bounce {
+    0%{left: 0px;}
+    25%{rotate: 5deg;left: 10px;}
+    50%{rotate: -5deg;left: -10px;}
+    75%{rotate: 5deg;left: 10px;}
+    100%{rotate: 0deg;left: 0px;}
 }
 
-.anim{
-    animation-name: anim;
-    animation-duration: 0.5s;
+.bounce {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
 }
