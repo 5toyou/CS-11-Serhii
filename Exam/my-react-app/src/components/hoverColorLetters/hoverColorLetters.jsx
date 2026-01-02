@@ -1,10 +1,10 @@
-import { HoverColorLetter } from './hoverColorLetter';
+import HoverColorLetter from './hoverColorLetter';
 import classes from './hoverColorLetters.module.css'
 
 
 let indexColor = 0;
 
-export const HoverColorLetters = (props) => {
+function HoverColorLetters(props) {
     const { text, defaultColor, colors } = props
 
     const getLetterColor = () => {
@@ -40,3 +40,5 @@ export const HoverColorLetters = (props) => {
         </div>
     </>)
 }
+
+export default HoverColorLetters

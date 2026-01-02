@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import classes from './hoverColorLetter.module.css'
 
-export const HoverColorLetter = (props) => {
+function HoverColorLetter(props) {
     const { letter, getLetterColor, defaultColor } = props
     const spanRef = useRef()
     const hoverHandler = () => {
@@ -22,3 +22,5 @@ export const HoverColorLetter = (props) => {
         {letter}
     </span>)
 }
+
+export default HoverColorLetter

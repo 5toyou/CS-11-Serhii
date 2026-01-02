@@ -1,0 +1,6 @@
+.box{
+    display: flex;
+    max-width: 1500px;
+    padding: clamp(40px, 10vw, 80px) clamp(25px, 7vw, 100px);
+    align-items: center;
+}

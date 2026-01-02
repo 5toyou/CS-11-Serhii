@@ -1,8 +1,9 @@
 .container {
     width: 800px;
     height: 400px;
-    font-size: 60px;
+    font-size: 7em;
     font-weight: bolder;
+    line-height: 0.9;
 }
 
 .letter.anim_color {
