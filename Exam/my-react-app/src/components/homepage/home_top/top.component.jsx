@@ -4,7 +4,10 @@ import HoverColorLetters from "../../hoverColorLetters/hoverColorLetters.jsx"
 
 function Top() {
 
-    const myColors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff'];
+    const myColors = 
+    ['#ff0000', '#ff8400ff', '#ff9d00ff', '#f6ff00ff', '#b7ff00ff',
+    '#73ff00ff', '#00ff00ff', '#00ff7bff', '#00d0ffff', '#0055ffff',
+    '#2600ffff', '#6200ffff', '#8400ffff', '#ff009dff'];
 
     return (
         <div className = {classes.box}>
