@@ -3,14 +3,14 @@
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;  
-    padding: 0 clamp(30px, 5vw, 60px);
+    width: 700px;
     margin: 0 auto;
     margin-bottom: 175px;
-    width: 100%;
-    max-width: 1700px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto 175px auto;
     text-align: center;
-    font-size: 10vw;
+    font-size: clamp(40px, 10vw, 160px);
     font-weight: 100;   
-    line-height: 0.85;
-    letter-spacing: -0.02em;
+    
 }

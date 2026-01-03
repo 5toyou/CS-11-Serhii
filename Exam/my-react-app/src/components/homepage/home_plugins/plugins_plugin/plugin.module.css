@@ -1,5 +1,5 @@
 .card {
-    border: 1px solid lightgray;
+    border: 2px solid rgb(236, 236, 236);
     border-radius: 15px;
     padding: 25px 0 25px 0;
     text-align: center;
@@ -7,12 +7,13 @@
     user-select: none;
     position: relative;
 
-    transition: transform 0.3s;
+    transition: transform 0.2s,border-color 0.2s;
 }
 
 .card:hover,.card:hover>div:first-child {
     visibility: visible;
     transform: scale(1.07);
+    border-color: rgb(206, 206, 206);
 }
 
 .card>div:first-child {
