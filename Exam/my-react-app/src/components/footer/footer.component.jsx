@@ -9,7 +9,7 @@ function Footer() {
                 <div className = {classes.footer_top}>
                     <div className = {classes.box}>
                         <ul>
-                            <li>Tools</li>
+                            <li className = {mustHave.sub_text_grey}>TOOLS</li>
 
                             <li className = {mustHave.btn_trans}>Generate your palettes</li>
                             <li className = {mustHave.btn_trans}>Explore popular palettes</li>
@@ -24,7 +24,7 @@ function Footer() {
 
                     <div className = {classes.box}>
                         <ul>
-                            <li>Discover</li>
+                            <li className = {mustHave.sub_text_grey}>DISCOVER</li>
 
                             <li className = {mustHave.btn_trans}>List of colors</li>
                             <li className = {mustHave.btn_trans}>Browse gradients</li>
@@ -40,7 +40,7 @@ function Footer() {
 
                     <div className = {classes.box}>
                         <ul>
-                            <li>Apps</li>
+                            <li className = {mustHave.sub_text_grey}>APPS</li>
 
                             <li className = {mustHave.btn_trans}>iOS App</li>
                             <li className = {mustHave.btn_trans}>Figma Plugin</li>
@@ -51,7 +51,7 @@ function Footer() {
 
                     <div className = {classes.box}>
                         <ul>
-                            <li>Company</li>
+                            <li className = {mustHave.sub_text_grey}>COMPANY</li>
 
                             <li className = {mustHave.btn_trans}>Pricing</li>
                             <li className = {mustHave.btn_trans}>License</li>
