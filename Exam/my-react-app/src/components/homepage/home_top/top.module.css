@@ -15,11 +15,17 @@
 
 }
 
+.bta{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
 .img{
     width: 200px;
     position: absolute;
     transform: rotate(-15deg);
-    bottom: 100px;
+    bottom: 150px;
     left: 500px;
     
 }

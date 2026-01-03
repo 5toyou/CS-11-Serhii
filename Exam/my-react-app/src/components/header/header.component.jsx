@@ -9,8 +9,8 @@ function Header() {
             <div className={classes.menu}>
                 <div>tools</div>
                 <div>go pro</div>
-                <a className = {mustHave.button_trans}>Sign in</a>
-                <a>Sign up</a>
+                <a className = {mustHave.btn_trans}>Sign in</a>
+                <a className = {`${mustHave.btn_blue} ${mustHave.s}`}>Sign up</a>
             </div>
         </header>
     )

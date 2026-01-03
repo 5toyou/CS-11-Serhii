@@ -11,7 +11,7 @@
 }
 
 
-.button_trans {
+.btn_trans {
     display: inline-block;
     border-radius: 10px;
     padding: 0 12px;
@@ -22,15 +22,17 @@
     text-decoration: none;
     cursor: pointer;
     user-select: none;
+
+    transition: zoom 0.1s;
 }
-.button_trans:hover {
+.btn_trans:hover {
     background-color: rgb(221, 221, 221);
 }
-.button_trans:active {
+.btn_trans:active {
     zoom: 0.9;
 }
 
-.button_blue {
+.btn_blue {
     display: inline-block;
     border-radius: 10px;
     padding: 0 20px;
@@ -44,14 +46,20 @@
     cursor: pointer;
     user-select: none;
 }
-.button_blue:hover {
+.btn_blue.s {
+    line-height: 35px;
+    height: 35px;
+    padding: 0 12px;
+}
+.btn_blue:hover {
     background-color: rgb(41, 76, 201);
 }
-.button_blue:active {
+.btn_blue:active {
     background-color: rgb(33, 62, 167);
 }
 
-.button_grey {
+
+.btn_grey {
     display: inline-block;
     border-radius: 10px;
     padding: 0 20px;
@@ -65,9 +73,9 @@
     cursor: pointer;
     user-select: none;
 }
-.button_grey:hover {
+.btn_grey:hover {
     background-color: rgb(205, 205, 205);
 }
-.button_grey:active {
+.btn_grey:active {
     background-color: rgb(234, 234, 234);
 }
