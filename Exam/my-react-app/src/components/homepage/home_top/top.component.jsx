@@ -14,7 +14,7 @@ function Top() {
     return (
         <div className = {classes.box}>
             <div className = {classes.left}>
-                <div><HoverColorLetters text="The super fast color palettes generator!" defaultColor="black" colors={myColors} /></div>
+                <div className = {classes.container}><HoverColorLetters text="The super fast color palettes generator!" defaultColor="black" colors={myColors} /></div>
                 <img className = {classes.img} src={andMuchMore} alt="And much more" />
                 <div className = {mustHave.sub_text}>Create the perfect palette or get inspired by <br/>thousands of beautiful color schemes.</div>
                 <div className = {classes.bta}>

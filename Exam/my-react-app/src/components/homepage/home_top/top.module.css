@@ -29,3 +29,11 @@
     left: 500px;
     
 }
+
+.container {
+    width: 800px;
+    height: 360px;
+    font-size: 6.75em;
+    font-weight: 700;
+    line-height: 0.9;
+}

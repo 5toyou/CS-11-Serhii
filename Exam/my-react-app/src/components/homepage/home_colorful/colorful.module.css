@@ -1,0 +1,16 @@
+.style {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;  
+    padding: 0 clamp(30px, 5vw, 60px);
+    margin: 0 auto;
+    margin-bottom: 175px;
+    width: 100%;
+    max-width: 1700px;
+    text-align: center;
+    font-size: 10vw;
+    font-weight: 100;   
+    line-height: 0.85;
+    letter-spacing: -0.02em;
+}
