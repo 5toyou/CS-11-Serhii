@@ -4,7 +4,7 @@ import Subtext_cotd from "./home_subtext_cotd/subtext_cotd.component.jsx"
 import Tools from "./home_tools/tools.component.jsx"
 import Colorful from "./home_colorful/colorful.component.jsx"
 import Resources from "./home_resources/resources.component.jsx"
-
+import Plugins from "./home_plugins/plugins.component.jsx"
 
 function Homepage() {
     return(
@@ -14,6 +14,7 @@ function Homepage() {
             <Subtext_cotd></Subtext_cotd>
             <Tools></Tools>
             <Resources></Resources>
+            <Plugins></Plugins>
             <Colorful></Colorful>
         </> 
     )

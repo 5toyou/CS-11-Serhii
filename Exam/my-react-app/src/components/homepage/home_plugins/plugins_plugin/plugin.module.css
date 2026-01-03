@@ -1,0 +1,33 @@
+.card {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 25px 0 25px 0;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+
+    transition: transform 0.3s;
+}
+
+.card:hover,.card:hover>div:first-child {
+    visibility: visible;
+    transform: scale(1.07);
+}
+
+.card>div:first-child {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: end;
+    visibility: hidden;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.card>div:last-child {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+
