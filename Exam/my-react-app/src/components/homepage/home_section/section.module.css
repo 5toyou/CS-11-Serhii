@@ -1,0 +1,27 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 100px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section>div:first-child {
+    margin-bottom: 50px;
+}
+
+.section>ul {
+    display: flex;
+    height: 50px;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    animation: company_scroll 50s linear infinite;
+}
+
+
+@keyframes company_scroll{
+    0%{transform: translate3d(0, 0, 0);}
+    100%{transform: translate3d(-1870px, 0, 0);}
+}
