@@ -1,6 +1,14 @@
+import React, { useState } from 'react';
 import classes from "./subtext_cotd.module.css"
 
 function Subtext_cotd() {
+
+    const generateRandomColor = () => {
+        const hex = Math.floor(Math.random() * 16777215).toString(16);
+        return `#${hex.padStart(6, '0')}`;
+    };
+
+    const [randomColor, setRandomColor] = useState(generateRandomColor());
 
     return (
         <div className = {classes.flex}>
@@ -16,8 +24,8 @@ function Subtext_cotd() {
                     <div>color of the day</div>
                     <div>
                         <div className = {classes.color_box}>
-                            <div></div>
-                            <div>#676767</div>
+                            <div style={{ backgroundColor: randomColor }}></div>
+                            <div>{randomColor.toUpperCase()}</div>
                         </div>
                         <div className = {classes.about}>
                             <div>Sweet Salmon</div>
