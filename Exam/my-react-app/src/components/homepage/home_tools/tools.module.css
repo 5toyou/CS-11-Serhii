@@ -5,6 +5,8 @@
 }
 .style>div:first-child {
     margin-bottom: 75px;
+    font-size: 1.1em;
+    color: #525252;
 }
 
 .grider {
