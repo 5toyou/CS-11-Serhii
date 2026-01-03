@@ -22,14 +22,13 @@
     text-decoration: none;
     cursor: pointer;
     user-select: none;
-
-    transition: zoom 0.1s;
+    transition: transform 0.1s;
 }
 .btn_trans:hover {
     background-color: rgb(221, 221, 221);
 }
 .btn_trans:active {
-    zoom: 0.9;
+    transform: scale(0.95);
 }
 
 .btn_blue {

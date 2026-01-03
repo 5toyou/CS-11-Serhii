@@ -28,11 +28,11 @@
     max-width: 550px;
     user-select: none;
     border-radius: 10px;
-    transition: zoom 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 .cotd_box:hover {
-    zoom: 1.05;
-    border: 3px solid grey;
+    transform: scale(1.03);
+    box-shadow: grey 0 0 0 2px;
 }
 
 .cotd_box>div:first-child {
