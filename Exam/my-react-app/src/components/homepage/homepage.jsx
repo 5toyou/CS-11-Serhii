@@ -1,7 +1,7 @@
-import Top from "./components/homepage/home_top/top.component.jsx"
-import Section from './components/homepage/home_section/section.component.jsx';
-import Subtext_cotd from "./components/homepage/home_subtext_cotd/subtext_cotd.component.jsx"
-import Tools from "./components/homepage/home_tools/tools.component.jsx"
+import Top from "./home_top/top.component.jsx"
+import Section from './home_section/section.component.jsx'
+import Subtext_cotd from "./home_subtext_cotd/subtext_cotd.component.jsx"
+import Tools from "./home_tools/tools.component.jsx"
 
 function Homepage() {
     return(
