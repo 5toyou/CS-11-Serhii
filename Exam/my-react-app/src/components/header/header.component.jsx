@@ -1,4 +1,5 @@
-import classes from './header.module.css'
+import classes from "./header.module.css"
+import mustHave from "../must_have.module.css"
 
 function Header() {
 
@@ -8,7 +9,7 @@ function Header() {
             <div className={classes.menu}>
                 <div>tools</div>
                 <div>go pro</div>
-                <a>Sign in</a>
+                <a className = {mustHave.button_trans}>Sign in</a>
                 <a>Sign up</a>
             </div>
         </header>

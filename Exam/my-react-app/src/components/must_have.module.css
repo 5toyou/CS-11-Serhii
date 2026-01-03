@@ -1,0 +1,73 @@
+.title_text {
+    font-size: 4em;
+}
+.sub_text {
+    font-size: 1.25em;
+}
+
+.sub_text_grey {
+    font-size: 1.25em;
+    color: lightslategrey;
+}
+
+
+.button_trans {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0 12px;
+    font-size: 1em;
+    line-height: 35px;
+    height: 35px;
+    width: auto;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+.button_trans:hover {
+    background-color: rgb(221, 221, 221);
+}
+.button_trans:active {
+    zoom: 0.9;
+}
+
+.button_blue {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0 20px;
+    color: white;
+    background-color: rgb(51, 94, 251);
+    font-size: 1em;
+    line-height: 45px;
+    height: 45px;
+    width: auto;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+.button_blue:hover {
+    background-color: rgb(41, 76, 201);
+}
+.button_blue:active {
+    background-color: rgb(33, 62, 167);
+}
+
+.button_grey {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0 20px;
+    color: black;
+    background-color: rgb(234, 234, 234);
+    font-size: 1em;
+    line-height: 45px;
+    height: 45px;
+    width: auto;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+.button_grey:hover {
+    background-color: rgb(205, 205, 205);
+}
+.button_grey:active {
+    background-color: rgb(234, 234, 234);
+}

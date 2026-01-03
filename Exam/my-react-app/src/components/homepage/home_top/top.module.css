@@ -1,6 +1,25 @@
 .box{
     display: flex;
     max-width: 1500px;
+    margin: 0 auto;
     padding: clamp(40px, 10vw, 80px) clamp(25px, 7vw, 100px);
     align-items: center;
+    cursor: default;
+}
+
+.left {
+    position: relative;
+}
+
+.right {
+
+}
+
+.img{
+    width: 200px;
+    position: absolute;
+    transform: rotate(-15deg);
+    bottom: 100px;
+    left: 500px;
+    
 }
