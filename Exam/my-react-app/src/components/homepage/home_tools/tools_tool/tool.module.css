@@ -1,0 +1,40 @@
+.card {
+    background-color: var(--bg-initial);
+    color: var(--text-initial);
+    padding: 35px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+    user-select: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+    text-align: start;
+}
+.card:hover {
+    background-color: var(--text-initial) !important;
+    color: white;
+    transform: scale(1.07);
+}
+
+.card:hover>div,
+.card:hover .bottom {
+    color: white;
+}
+
+.card>div:first-child {
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 0.95;
+}
+.card>div {
+    font-size: 1.1em;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
