@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    padding: 25px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 25px;
+    transition: transform 0.3s;
+}
+.card:hover {
+    background-color: rgb(221, 221, 221);
+    transform: scale(1.07);
+}
+
+.card>div:first-child {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card>div:last-child {
+    color: #525252;
+}

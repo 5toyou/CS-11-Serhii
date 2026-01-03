@@ -17,7 +17,7 @@ function Tools() {
 
     return (
         <div className = {classes.style}>
-            <div>OUR TOOLS, LOVED BY MILLIONS</div>
+            <div>our tools, loved by millions</div>
             <div className = {classes.grider}>
                 {cardData.map((data, index) => (
                     <Tool 
