@@ -5,7 +5,7 @@ function Section() {
 
     return (
         <div className = {classes.section}>
-            <div className = {mustHave.sub_text_grey}>TRUSTED BY 8+ MILLION CREATIVE MINDS AND TOP COMPANIES</div>
+            <div className = {mustHave.sub_text_grey}>Trusted bt 8+ million creative minds and top companies</div>
             <ul>
                 <li><img height="30" src="https://res.cloudinary.com/coolors/image/upload/v1757421975/media/1622439415c22e4475400432eae4619d1592a8bc-71x22.svg" /></li>
                 <li><img height="30" src="https://res.cloudinary.com/coolors/image/upload/v1757422329/media/c641bb5bbe69c6b42344fd2333924a206ef43736-92x18.svg" /></li>

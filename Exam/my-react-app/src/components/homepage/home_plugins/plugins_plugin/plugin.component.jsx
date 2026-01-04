@@ -1,11 +1,11 @@
 import classes from "./plugin.module.css"
 
-function Plugin() {
+function Plugin({title}) {
 
     return (
         <div className = {classes.card}>
             <div>↗</div>
-            <div>ios app</div>
+            <div>{title}</div>
         </div>
     )
 

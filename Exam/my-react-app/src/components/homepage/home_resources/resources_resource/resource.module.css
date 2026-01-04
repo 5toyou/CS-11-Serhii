@@ -1,7 +1,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
     text-align: start;
     padding: 25px;
     background-color: #f5f5f5;

@@ -7,9 +7,9 @@ function Plugins() {
         <div className = {classes.style}>
             <div>Plugins and Apps</div>
             <div className = {classes.grider}>
-                <Plugin></Plugin>
-                <Plugin></Plugin>
-                <Plugin></Plugin>
+                <Plugin title="iOS App" />
+                <Plugin title="Figma Plugin" />
+                <Plugin title="Adobe Extension" />
             </div>
         </div>
     )

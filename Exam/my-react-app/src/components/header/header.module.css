@@ -14,7 +14,7 @@
 
 .title {
     font-size: 35px;
-    color: rgb(70, 70, 217);
+    color: rgb(72, 118, 255);
     font-weight: bold;
     cursor: pointer;
     user-select: none;
@@ -28,3 +28,8 @@
     align-items: center;
     column-gap: 20px;
 }
+.menu>div:nth-child(3) {
+    height: 50%;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+}
+

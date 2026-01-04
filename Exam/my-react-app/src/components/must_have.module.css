@@ -5,12 +5,6 @@
     font-size: 1.25em;
 }
 
-.sub_text_grey {
-    font-size: 1.25em;
-    color:  #525252;;
-}
-
-
 .btn_trans {
     display: inline-block;
     border-radius: 10px;
@@ -25,10 +19,10 @@
     transition: transform 0.1s;
 }
 .btn_trans:hover {
-    background-color: rgb(221, 221, 221);
+    background-color: rgba(221, 221, 221, 0.5);
 }
 .btn_trans:active {
-    transform: scale(0.95);
+    transform: scale(0.90);
 }
 
 .btn_blue {
@@ -77,4 +71,26 @@
 }
 .btn_grey:active {
     background-color: rgb(234, 234, 234);
+}
+
+
+.btn_pink {
+    display: inline-block;
+    color: #ec489a;
+    border-radius: 10px;
+    padding: 0 12px;
+    font-size: 1em;
+    line-height: 35px;
+    height: 35px;
+    width: auto;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.1s;
+}
+.btn_pink:hover {
+    background-color: #db27783c;
+}
+.btn_pink:active {
+    transform: scale(0.90);
 }
