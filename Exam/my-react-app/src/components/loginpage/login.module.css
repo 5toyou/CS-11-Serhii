@@ -1,0 +1,59 @@
+.split_screen {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.screen_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.screen_right {
+    width: 50%;
+    background: no-repeat;
+    background-size: cover;
+}
+
+.login_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    align-self: center;
+}
+
+.login_box>div,.login_box>a {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.login_box>div:first-child {
+    font-size: 4.5em;
+    font-weight: bolder;
+}
+.login_box>div:nth-child(2) {
+    font-size: 1.15em;
+    color: #525252;
+}
+
+.or_line {
+    height: 1px;
+    border: rgba(200, 200, 200, 0.5) 1px solid;
+}
+
+@media (max-width: 900px) {
+  .screen_right {
+    width: 0;
+  }
+  .screen_left {
+    width: 100%;
+  }
+}
