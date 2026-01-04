@@ -35,7 +35,6 @@
     margin-top: 10px;
     width: 100%;
 }
-
 .register_box>div:first-child {
     font-size: 3em;
     font-weight: bolder;
@@ -60,7 +59,24 @@ input:hover {
     border-color: #525252;
 }
 
+.pass_pos {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
 
+.eyeButton {
+    position: absolute;
+    transform: translateY(-50%);
+    right: 15px;
+    top: 50%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #555;
+    font-size: 1.2em;
+}
 
 
 @media (max-width: 900px) {
