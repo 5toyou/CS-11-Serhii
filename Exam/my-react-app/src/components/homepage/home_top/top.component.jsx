@@ -4,9 +4,34 @@ import HoverColorLetter from "../../hoverColorLetters/hoverColorLetter.jsx"
 import HoverColorLetters from "../../hoverColorLetters/hoverColorLetters.jsx"
 import andMuchMore from "../../../assets/and_much_more.svg"
 import { useNavigate } from "react-router-dom"
+import { useState, useEffect } from 'react';
 
 function Top() {
 
+    const generateRandomColor = () => {
+        const hex = Math.floor(Math.random() * 16777215).toString(16);
+        return `#${hex.padStart(6, '0')}`;
+    };
+
+    const [colors, setColors] = useState([
+        generateRandomColor(), generateRandomColor(), 
+        generateRandomColor(), generateRandomColor(), 
+        generateRandomColor()
+    ]);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setColors([
+                generateRandomColor(), generateRandomColor(),
+                generateRandomColor(), generateRandomColor(),
+                generateRandomColor()
+            ]);
+        }, 1000);
+
+        return () => clearInterval(interval);
+    }, []);
+
+    
     const navigate = useNavigate();
 
     const myColors = 
@@ -26,7 +51,11 @@ function Top() {
                 </div>
             </div>
             <div className = {classes.right}>
-                <div>animmmm</div>
+                <div className={classes.anim_container}>
+                    {colors.map((color, index) => (
+                        <div key={index} className={classes.color_strip} style={{ backgroundColor: color }} ></div>
+                    ))}
+                </div>
             </div>
         </div>
     )

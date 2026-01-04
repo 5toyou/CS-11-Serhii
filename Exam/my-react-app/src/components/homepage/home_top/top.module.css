@@ -37,3 +37,18 @@
     font-weight: 700;
     line-height: 0.9;
 }
+
+
+.anim_container {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.color_strip {
+    flex: 1;
+    height: 100%;
+    transition: background-color 0.2s;
+}
