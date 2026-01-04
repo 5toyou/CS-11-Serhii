@@ -1,14 +1,22 @@
 import React, { useState } from 'react';
 import classes from "./subtext_cotd.module.css"
+import { useNavigate } from "react-router-dom"
 
 function Subtext_cotd() {
+
+    const navigate = useNavigate();
 
     const generateRandomColor = () => {
         const hex = Math.floor(Math.random() * 16777215).toString(16);
         return `#${hex.padStart(6, '0')}`;
     };
+    
+    const [randomColor] = useState(generateRandomColor());
 
-    const [randomColor, setRandomColor] = useState(generateRandomColor());
+    const handleNavigation = () => {
+        const hexValue = randomColor.substring(1); 
+        navigate(`/colors/${hexValue}`);
+    };
 
     return (
         <div className = {classes.flex}>
@@ -20,7 +28,7 @@ function Subtext_cotd() {
                     Organize your palettes into projects and export them in multiple formats—effortlessly across web, apps, and plugins. Now with AI!
                 </div>
 
-                <a className = {classes.cotd_box}>
+                <a onClick={handleNavigation} className = {classes.cotd_box}>
                     <div>color of the day</div>
                     <div>
                         <div className = {classes.color_box}>
