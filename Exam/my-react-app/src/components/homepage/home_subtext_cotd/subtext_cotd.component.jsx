@@ -36,8 +36,8 @@ function Subtext_cotd() {
                             <div>{randomColor.toUpperCase()}</div>
                         </div>
                         <div className = {classes.about}>
-                            <div>Sweet Salmon</div>
-                            <div>Sweet, gentle salmon wraps with a soft glow, bringing comfort, approachability, and friendly warmth.</div>
+                            <div>Sweet Salty molty color</div>
+                            <div>Sweet, gently wraps with a soft comfort, bringing skeletons, friendly fire is on, and you filled with determination.</div>
                         </div>
                     </div>
                 </a>

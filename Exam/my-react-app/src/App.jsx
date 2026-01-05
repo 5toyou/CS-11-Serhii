@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import ScrollToTop from "./components/scrolltotop.jsx"
 import Header from "./components/header/header.component.jsx"
 import Homepage from "./components/homepage/homepage.jsx"
 import Generator from "./components/generatorpage/generator.component.jsx"
@@ -11,6 +12,7 @@ function App() {
   return(
     <BrowserRouter>
 
+      <ScrollToTop />
 
       <Routes>
         <Route path="/" element={
@@ -30,6 +32,7 @@ function App() {
           <>
             <Header />
             <Cotd />
+            <Footer />
           </>
         } />
 

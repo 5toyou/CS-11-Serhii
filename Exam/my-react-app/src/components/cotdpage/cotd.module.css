@@ -1,0 +1,91 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.top_txt {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.top_txt>div:nth-child(2) {
+    font-size: 5em;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.top_txt>div:last-child {
+    color: gray;
+    font-size: 1.5em;
+}
+
+.color_name {
+    display: flex;
+}
+
+.color_name>div:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.color_display {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+    padding: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: none;
+}
+
+.color_display>div:first-child {
+    display: flex;
+    align-self: flex-end;
+}
+
+.color_display>div:nth-child(2) {
+    font-size: 4em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bottom_txt {
+    
+}
+
+.bottom_txt>div:first-child {
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 75px;
+}
+
+.bottom_txt>div:last-child {
+    display: flex;
+}
+
+.numbers_column {
+    width: 50%;
+    padding: 35px;
+    margin-bottom: 75px;
+}
+
+.numbers_column>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers_style_1 {
+    background-color: #f5f5f5;
+    padding: 15px 10px 15px 10px;
+    cursor: pointer;
+}
+
+.numbers_style_2 {
+    background-color: lightgrey;
+    padding: 15px 10px 15px 10px;
+    cursor: pointer;
+}
