@@ -1,7 +1,9 @@
 .container {
     max-width: 1500px;
+    padding: 0 clamp(30px, 5vw, 60px);
     margin: 0 auto;
     text-align: left;
+    padding-top: 60px;
 }
 
 .top_txt {

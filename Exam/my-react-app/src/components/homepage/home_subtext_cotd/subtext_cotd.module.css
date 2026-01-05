@@ -1,6 +1,9 @@
 .flex {
     display: flex;
     justify-content: center;
+    max-width: 1500px;
+    padding: 0 clamp(30px, 5vw, 60px);
+    margin: 0 auto;
 }
 
 
@@ -14,7 +17,7 @@
 }
 .style>div:first-child {
     font-size: 1.6em;
-    width: 650px;
+    width: 50%;
 }
 
 
@@ -22,10 +25,11 @@
 .cotd_box {
     display: block;
     padding: 30px;
+    width: 50%;
     background-color: #f5f5f5;
     text-decoration: none;
     cursor: pointer;
-    max-width: 550px;
+    height: auto;
     user-select: none;
     border-radius: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -65,6 +69,18 @@
     border-radius: 10px;
     margin-bottom: 5px;
 }
-.color_box>div:last-child {
-    
+
+
+
+@media (max-width: 900px) {
+    .style {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .style>div:first-child {
+        width: 100%;
+    }
+    .cotd_box {
+        width: 100%;
+    }
 }

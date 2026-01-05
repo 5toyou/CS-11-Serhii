@@ -5,12 +5,12 @@ function Tools() {
 
     const cardData = 
     [
-        { title: "Palette Generator", text: "Create beautiful color schemes...", link: "START THE GENERATOR", color: "#D1F9FF", textColor: "#007B8C" },
-        { title: "Explore Palettes", text: "Get inspired by thousands...", link: "EXPLORE 10M+ PALETTES", color: "#DDEBFF", textColor: "#2D5BFF" },
-        { title: "Image Picker", text: "Extract beautiful colors...", link: "LAUNCH THE IMAGE PICKER", color: "#F0E9FF", textColor: "#8A3FFC" },
-        { title: "Contrast Checker", text: "Calculate the contrast ratio...", link: "TRY THE CONTRAST CHECKER", color: "#FCE7F3", textColor: "#DB2777" },
-        { title: "Palette Visualizer", text: "Preview your colors on real designs...", link: "OPEN THE VISUALIZER", color: "#FFE4E1", textColor: "#E11D48" },
-        { title: "Color Picker", text: "Get useful color information...", link: "LAUNCH THE COLOR PICKER", color: "#FFEDD5", textColor: "#D97706" },
+        { title: "Palette Generator", text: "Create beautiful color schemes in seconds with the worldwide loved palette tool. Just hit the spacebar!", link: "START THE GENERATOR", color: "#D1F9FF", textColor: "#007B8C" },
+        { title: "Explore Palettes", text: "Get inspired by thousands of beautiful color schemes. Search by colors, styles, topics or hex values.", link: "EXPLORE 10M+ PALETTES", color: "#DDEBFF", textColor: "#2D5BFF" },
+        { title: "Image Picker", text: "Extract beautiful colors from your photos and turn them into palettes for your projects.", link: "LAUNCH THE IMAGE PICKER", color: "#F0E9FF", textColor: "#8A3FFC" },
+        { title: "Contrast Checker", text: "Calculate the contrast ratio of text and background colors to make your content more accessible.", link: "TRY THE CONTRAST CHECKER", color: "#FCE7F3", textColor: "#DB2777" },
+        { title: "Palette Visualizer", text: "Preview your colors on real designs to see how they look in context before using them in your projects.", link: "OPEN THE VISUALIZER", color: "#FFE4E1", textColor: "#E11D48" },
+        { title: "Color Picker", text: "Get useful color information like meaning, usage, variations, accessibility and conversion.", link: "LAUNCH THE COLOR PICKER", color: "#FFEDD5", textColor: "#D97706" },
         { title: "Tailwind Colors", text: "Preview Tailwind CSS colors on real designs to see how they look in context before using them in your projects.", link: "Get your Tailwind colors", color: "#fffee1ff", textColor: "#e1bd1dff" },
         { title: "Color Bot", text: "Chat with our AI-powered Color Bot, ask questions and get color suggestions for your projects.", link: "Chat with Color Bot", color: "#e1ffe2ff", textColor: "#20e11dff" }
     ];

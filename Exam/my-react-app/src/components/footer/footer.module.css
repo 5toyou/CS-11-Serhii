@@ -2,14 +2,14 @@
     border-top: 1px solid rgba(200, 200, 200, 0.5);
     display: flex;
     flex-direction: column;
-
     align-items: center;
+    margin: 0 auto;
 }
 
 .footer_top {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     max-width: 1500px;
-    flex-wrap: nowrap;
     padding: 50px 0;
 }
 
@@ -17,6 +17,15 @@
     display: flex;
     border-top: 1px solid rgba(200, 200, 200, 0.5);
     height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_bottom>div:first-child {
+    font-size: 0.85em;
+}
+.footer_bottom>div:last-child {
+    display: flex;
     align-items: center;
 }
 
@@ -35,6 +44,14 @@
 }
 
 .box>ul>li:first-child {
-    margin-bottom: 50px;
+    color: #525252;
+    margin-bottom: 30px;
     margin-left: 10px;
+}
+
+
+@media (max-width: 1000px) {
+    .footer_top {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

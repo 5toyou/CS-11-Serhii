@@ -1,6 +1,11 @@
 import classes from "./footer.module.css"
 import mustHave from "../must_have.module.css"
 
+import expand_arrow from "../../assets/icons8-expand-arrow-50.png"
+import twitter_logo from "../../assets/icons8-twitter-bird-50.png"
+import pinterest_logo from "../../assets/icons8-pinterest-logo-50.png"
+import instagram_logo from "../../assets/icons8-instagram-logo-50.png"
+
 function Footer() {
 
     return (
@@ -70,6 +75,13 @@ function Footer() {
 
                 <div className = {classes.footer_bottom}>
                     <div>© Coolors by Fabrizio Bianchi. Let's make something cool!</div>
+                    <div>
+                        <div className = {mustHave.btn_trans}>English&nbsp;<img src={expand_arrow} /></div>
+                        <img className = {mustHave.btn_trans_round} src={twitter_logo} alt="twitter logo" />
+                        <img className = {mustHave.btn_trans_round} src={pinterest_logo} alt="pinterest logo" />
+                        <img className = {mustHave.btn_trans_round} src={instagram_logo} alt="instagram logo" />
+                        <img className = {mustHave.btn_trans_round} src={pinterest_logo} alt="p? logo" />
+                    </div>
                 </div>
             </div>
         </footer>

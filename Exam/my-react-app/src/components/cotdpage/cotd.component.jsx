@@ -56,7 +56,7 @@ function Cotd() {
                         </div>
                         <div className = {classes.numbers_style_2}>
                             <div>HSB</div>
-                            <div>676, 67, 67, 100</div>
+                            <div>-676767</div>
                         </div>
                         <div className = {classes.numbers_style_1}>
                             <div>HSL</div>
@@ -67,23 +67,23 @@ function Cotd() {
                     <div className = {classes.numbers_column}>
                         <div className = {classes.numbers_style_1}>
                             <div>LAB</div>
-                            <div>696969</div>
+                            <div>-696969</div>
                         </div>
                         <div className = {classes.numbers_style_2}>
                             <div>XYZ</div>
-                            <div>525252</div>
+                            <div>-525252</div>
                         </div>
                         <div className = {classes.numbers_style_1}>
                             <div>LCH</div>
-                            <div>525252</div>
+                            <div>-525252</div>
                         </div>
                         <div className = {classes.numbers_style_2}>
                             <div>LUV</div>
-                            <div>676767</div>
+                            <div>-676767</div>
                         </div>
                         <div className = {classes.numbers_style_1}>
                             <div>HWB</div>
-                            <div>676767</div>
+                            <div>-676767</div>
                         </div>
                     </div>
 

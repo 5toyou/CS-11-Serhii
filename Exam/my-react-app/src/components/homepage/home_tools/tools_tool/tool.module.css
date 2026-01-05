@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 300px;
+    min-height: 350px;
     user-select: none;
     cursor: pointer;
     transition: transform 0.3s;
@@ -24,12 +24,13 @@
 }
 
 .card>div:first-child {
-    font-size: 4em;
+    font-size: 3.7em;
     font-weight: bold;
     line-height: 0.95;
 }
 .card>div {
-    font-size: 1.1em;
+    font-size: 1.2em;
+    
 }
 
 .bottom {
@@ -38,3 +39,14 @@
     text-transform: uppercase;
 }
 
+@media (max-width: 1200px) {
+    .card {
+        min-height: 275px;
+    }
+}
+
+@media (max-width: 900px) {
+    .card {
+        min-height: 200px;
+    }
+}

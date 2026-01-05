@@ -6,7 +6,7 @@
 }
 
 .btn_trans {
-    display: inline-block;
+    display: flex;
     border-radius: 10px;
     padding: 0 12px;
     font-size: 1em;
@@ -14,6 +14,7 @@
     height: 35px;
     width: auto;
     text-decoration: none;
+    align-items: center;
     cursor: pointer;
     user-select: none;
     transition: transform 0.1s;
@@ -24,6 +25,31 @@
 .btn_trans:active {
     transform: scale(0.90);
 }
+
+.btn_trans>img {
+    width: 17px;
+    height: 20px;
+}
+
+
+.btn_trans_round {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.1s;
+}
+.btn_trans_round:hover {
+    background-color: rgba(221, 221, 221, 0.5);
+}
+.btn_trans_round:active {
+    transform: scale(0.90);
+}
+
 
 .btn_blue {
     display: inline-block;
