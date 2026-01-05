@@ -1,6 +1,11 @@
 import classes from "./cotd.module.css"
+import mustHave from "../must_have.module.css"
 import chroma from "chroma-js"
 import { useParams } from "react-router-dom"
+
+import heart_logo from "../../assets/icons8-heart-24.png"
+import resize_logo from "../../assets/icons8-resize-48.png"
+import colorDropper_logo from "../../assets/icons8-color-dropper-50.png"
 
 function Cotd() {
 
@@ -21,20 +26,19 @@ function Cotd() {
                 <div className = {classes.color_name}>
                     <a >Colors</a>
                     <div>&gt;</div>
-                    <div>tuffcolor</div>
+                    <div>Tuffcolor</div>
                 </div>
-                <div>Cool Color</div>
+                <div>Tuffcolor</div>
                 <div>intense mixes of different shades gives it coolness and that is kinda crazy, I am totaly not saying complete nonsense.</div>
             </div>
 
             <div className = {classes.color_display} style={{ backgroundColor: full_color }}>
                 <div>
-                    <div>pipetka</div>
-                    <div>resize</div>
-                    <div>seve</div>
+                    <img className = {mustHave.btn_trans_round} src={colorDropper_logo} />
+                    <img className = {mustHave.btn_trans_round} src={resize_logo} />
+                    <img className = {mustHave.btn_trans_round} src={heart_logo} /> 
                 </div>
                 <div>{full_color_num.toUpperCase()}</div>
-                <div></div>
             </div>
 
             <div className = {classes.bottom_txt}>

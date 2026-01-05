@@ -29,13 +29,6 @@
     width: 100%;
     align-self: center;
 }
-
-.login_box>div,.login_box>a {
-    margin-bottom: 5px;
-    margin-top: 10px;
-    width: 100%;
-}
-
 .login_box>div:first-child {
     font-size: 4.5em;
     font-weight: bolder;
@@ -45,9 +38,39 @@
     color: #525252;
 }
 
+.login_box>div,.login_box>a {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.box_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_line>div:nth-child(2) {
+    color: #525252;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
 .or_line {
     height: 1px;
+    width: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
     border: rgba(200, 200, 200, 0.5) 1px solid;
+}
+
+.link_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link_btn>img {
+    width: 20px;
+    height: 20px;
 }
 
 @media (max-width: 900px) {
