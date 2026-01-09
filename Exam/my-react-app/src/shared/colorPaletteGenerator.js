@@ -9,7 +9,7 @@ export const getRandomPalette = (count = 5) => {
     return generator.getRandomPalette({ length: count }).map(el => el.hex);
 };
 
-export const getPalette = (colorHex, count = 7) => {
+export const getPalette = (colorHex, count = 6) => {
     return new ColorPaletteGenerator({
         baseColor: colorHex,
     }).getDistributedPalette({ includeBaseColor: true, length: count, sortByBrightness: true }).map(el => el.hex)
