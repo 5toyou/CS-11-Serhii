@@ -60,7 +60,7 @@
 .priceBox {
     display: flex;
     gap: 8px;
-    align-items: baseline;
+    align-self: start;
     font-size: 1.2em;
 }
 

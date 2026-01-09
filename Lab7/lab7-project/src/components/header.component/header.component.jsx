@@ -1,5 +1,8 @@
 import classes from './header.module.css'
 
+import shoppingCart from "../../../public/shopping-cart.png"
+import search from "../../../public/search.png"
+
 function HeaderComponent() {
 
     return (
@@ -22,7 +25,7 @@ function HeaderComponent() {
                 </div> 
                 <div className = {classes.cartBar}>
                     <div>
-                        <img src="" alt="" />
+                        <img src={shoppingCart} alt="" />
                     </div>
                     <div>
                         <div>My cart:</div>&nbsp;
@@ -33,7 +36,7 @@ function HeaderComponent() {
                 <div className = {classes.searchBar}>
                     <input type="text" placeholder='Search store...' />
                     <div>
-                        <img src="" alt="" />
+                        <img src={search} alt="" />
                     </div>
                 </div>
             </div>
