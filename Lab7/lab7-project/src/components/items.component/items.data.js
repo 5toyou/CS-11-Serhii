@@ -63,13 +63,13 @@ export const itemsData = [
         currency: '$'
     },
     {
-        image: "/imgs/oksana_dining_table_1_medium",
+        image: "/imgs/oksana_dining_table_1_medium.avif",
         title: "Oksana Dining Table",
         price: "199.00",
         currency: '$'
     },
     {
-        image: "/imgs/pk20_easy_chair_by_designer_poul_kjaerholm_for_fritz_hansen_1_medium",
+        image: "/imgs/pk20_easy_chair_by_designer_poul_kjaerholm_for_fritz_hansen_1_medium.avif",
         title: "PK20 Easy Chair by Designer Poul",
         price: "60.00",
         currency: '$'
