@@ -26,9 +26,9 @@ function Cotd() {
                 <div className = {classes.color_name}>
                     <a >Colors</a>
                     <div>&gt;</div>
-                    <div>Tuffcolor</div>
+                    <div>colorName</div>
                 </div>
-                <div>Tuffcolor</div>
+                <div>colorName</div>
                 <div>intense mixes of different shades gives it coolness and that is kinda crazy, I am totaly not saying complete nonsense.</div>
             </div>
 
