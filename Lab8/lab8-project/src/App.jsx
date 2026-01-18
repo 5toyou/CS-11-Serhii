@@ -1,35 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import { Login } from './components/login.component/login.component.js';
+import { MainComponent } from './components/main.component/main.component.js';
+import { NotFoundPageComponent } from './components/notFound/notFoundPage.component.js';
+import { Registration } from './components/registration.component/registration.component.js';
+import {
+  BrowserRouter,
+  Route,
+  Routes
+} from 'react-router-dom'
+import { AuthorizedWrapper, NonAuthorizedWrapper } from './components/wrapper/wrapper.component.js';
+import { AllPostsComponent } from './components/allPosts.component/allPosts.component.js';
+import { Post } from './components/post.component/post.component.js';
+import { PostPage } from './components/postPage.component/postPage.component.js';
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' Component={NonAuthorizedWrapper}>
+          <Route index Component={MainComponent} />
+          <Route path='/posts' Component={AllPostsComponent} />
+          {/* <Route path='/posts/1' Component={Post} />
+          <Route path='/posts/2' Component={Post} />
+          <Route path='/posts/3' Component={Post} /> */}
+          <Route path='/posts/:postId' Component={PostPage} />
+        </Route>
+        <Route path='/page-404' Component={NotFoundPageComponent} />
+        <Route path='/*' Component={NotFoundPageComponent} />
+        <Route path='/' Component={AuthorizedWrapper}>
+          <Route path='/registration' Component={Registration} />
+          <Route path='/login' Component={Login} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
