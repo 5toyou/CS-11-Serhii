@@ -1,0 +1,34 @@
+.page {
+    padding: 20px;
+    color: white;
+}
+
+.authorRow {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.authorInfo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 300px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+}
+
+.postsContainer {
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}

@@ -5,7 +5,7 @@ import { getAuthor } from '../../services/blogService'
 import { Loader } from "../loader.component/loader.component"
 
 export const Post = (props) => {
-    const { userId, id, title, body } = props
+    const { userId, id, title, body, isShortView } = props
     const navigate = useNavigate()
     
     const text = body.slice(0, 45).trim()
@@ -29,12 +29,17 @@ export const Post = (props) => {
     return (
         <div className={classes.container} onClick={() => navigate(`/posts/${id}`)}>
             <div className={classes.title}>Title: {titleCut}...</div>
-            <div className={classes.text}>{text}...</div>
-            <div className={classes.author}>
-                <div className={classes.author_name}>{author.name}</div>
-                <div className={classes.author_email}>{author.email}</div>
-                <div className={classes.author_companyName}>Company Name: {author.companyName}</div>
-            </div>
+            <div className={classes.openBtn}>open</div>
+            {!isShortView && (
+                <>
+                    <div className={classes.text}>{text}...</div>
+                    <div className={classes.author}>
+                        <div className={classes.author_name}>{author.name}</div>
+                        <div className={classes.author_email}>{author.email}</div>
+                        <div className={classes.author_companyName}>Company Name: {author.companyName}</div>
+                    </div>
+                </>
+            )}
         </div>
     )
 }

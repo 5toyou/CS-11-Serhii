@@ -12,7 +12,7 @@ import { AuthorizedWrapper, NonAuthorizedWrapper } from './components/wrapper/wr
 import { AllPostsComponent } from './components/allPosts.component/allPosts.component.jsx';
 import { Post } from './components/post.component/post.component.jsx';
 import { PostPage } from './components/postPage.component/postPage.component.jsx';
-
+import { AuthorsComponent } from './components/authors.component/authors.component.jsx';
 
 function App() {
 
@@ -22,9 +22,7 @@ function App() {
         <Route path='/' Component={NonAuthorizedWrapper}>
           <Route index Component={MainComponent} />
           <Route path='/posts' Component={AllPostsComponent} />
-          {/* <Route path='/posts/1' Component={Post} />
-          <Route path='/posts/2' Component={Post} />
-          <Route path='/posts/3' Component={Post} /> */}
+          <Route path='/authors' Component={AuthorsComponent} />
           <Route path='/posts/:postId' Component={PostPage} />
         </Route>
         <Route path='/page-404' Component={NotFoundPageComponent} />

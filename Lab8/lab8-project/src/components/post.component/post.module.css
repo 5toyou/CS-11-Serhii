@@ -30,3 +30,17 @@
     text-align: right;
     font-size: 14px;
 }
+
+
+.openBtn {
+    font-size: 0.8em;
+    padding: 3px 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.openBtn:hover {
+    color: #3A405A;
+    background-color: white;
+}
