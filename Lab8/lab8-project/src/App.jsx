@@ -1,17 +1,17 @@
 import './App.css';
-import { Login } from './components/login.component/login.component.js';
-import { MainComponent } from './components/main.component/main.component.js';
-import { NotFoundPageComponent } from './components/notFound/notFoundPage.component.js';
-import { Registration } from './components/registration.component/registration.component.js';
+import { Login } from './components/login.component/login.component.jsx';
+import { MainComponent } from './components/main.component/main.component.jsx';
+import { NotFoundPageComponent } from './components/notFound/notFoundPage.component.jsx';
+import { Registration } from './components/registration.component/registration.component.jsx';
 import {
   BrowserRouter,
   Route,
   Routes
 } from 'react-router-dom'
-import { AuthorizedWrapper, NonAuthorizedWrapper } from './components/wrapper/wrapper.component.js';
-import { AllPostsComponent } from './components/allPosts.component/allPosts.component.js';
-import { Post } from './components/post.component/post.component.js';
-import { PostPage } from './components/postPage.component/postPage.component.js';
+import { AuthorizedWrapper, NonAuthorizedWrapper } from './components/wrapper/wrapper.component.jsx';
+import { AllPostsComponent } from './components/allPosts.component/allPosts.component.jsx';
+import { Post } from './components/post.component/post.component.jsx';
+import { PostPage } from './components/postPage.component/postPage.component.jsx';
 
 
 function App() {

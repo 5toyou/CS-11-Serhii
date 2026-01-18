@@ -7,7 +7,7 @@ import {
   getEmailErrors
 } from './validationRules.js'
 import { useNavigate } from 'react-router-dom'
-import { AuthorizedWrapper } from '../wrapper/wrapper.component.js';
+import { AuthorizedWrapper } from '../wrapper/wrapper.component.jsx';
 
 export const Registration = () => {
   console.log('Registration render')
